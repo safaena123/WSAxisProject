@@ -1,0 +1,13 @@
+<service>
+		<description>My account manager web service </description>
+		
+		<parameter name="ServiceClass">
+				tp1.services.AccountManager
+		</parameter>
+		
+		<operation name="createAccount">
+				<messageReceiver
+						class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+		</operation>
+
+</service>
